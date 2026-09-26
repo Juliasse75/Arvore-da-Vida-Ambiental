@@ -1,0 +1,20 @@
+{
+  "name": "arvore-da-vida-site",
+  "version": "1.0.0",
+  "description": "Site institucional - Árvore da Vida Consultoria e Serviços Ambientais",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "dotenv": "^16.4.5",
+    "express-rate-limit": "^7.4.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
