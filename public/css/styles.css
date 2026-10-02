@@ -403,30 +403,6 @@ nav.primary-nav a:hover, nav.primary-nav a:focus-visible { color: var(--forest-d
   .sim-options { grid-template-columns: 1fr; }
 }
 
-/* ---------- Depoimentos ---------- */
-.testimonials {
-  background: var(--forest-deep);
-  color: #EFEAD9;
-}
-.testimonials .section-head h2 { color: #fff; }
-.testimonials .section-head p { color: #C7D6C1; }
-.testi-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
-}
-.testi-card {
-  border: 1px solid rgba(255,255,255,0.16);
-  border-radius: var(--radius);
-  padding: 26px;
-}
-.testi-card p { font-size: 0.95rem; color: #DDE4D6; margin-bottom: 18px; }
-.testi-card footer { font-size: 0.85rem; color: var(--amber); }
-
-@media (max-width: 880px) {
-  .testi-grid { grid-template-columns: 1fr; }
-}
-
 /* ---------- Contato ---------- */
 .contact-grid {
   display: grid;
