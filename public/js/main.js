@@ -22,9 +22,9 @@ const SIM_DATA = {
         title: 'Preciso abrir ou renovar uma licença',
         desc: 'Empresas que ainda não têm LP/LI/LO ou precisam renovar uma licença vencida.',
         result: {
-          title: 'Licenciamento Ambiental + PGRS',
-          desc: 'Para indústrias, o caminho passa por três frentes: a licença em si (LP, LI ou LO), o Plano de Gerenciamento de Resíduos Sólidos e o Cadastro Técnico Federal junto ao IBAMA.',
-          items: ['Licenciamento Ambiental (LP, LI, LO)', 'PGRS — Plano de Gerenciamento de Resíduos Sólidos', 'CTF/APP IBAMA']
+          title: 'Licenciamento Ambiental + PGRS / PGRSS',
+          desc: 'Para indústrias, o caminho passa por três frentes: a licença em si (LP, LI ou LO), o Plano de Gerenciamento de Resíduos (Sólidos e de Serviços de Saúde) e o Cadastro Técnico Federal junto ao IBAMA.',
+          items: ['Licenciamento Ambiental (LP, LI, LO)', 'PGRS / PGRSS — Plano de Gerenciamento de Resíduos', 'CTF/APP IBAMA']
         }
       },
       {
@@ -32,9 +32,9 @@ const SIM_DATA = {
         title: 'Preciso organizar o descarte de resíduos',
         desc: 'Sua empresa já opera, mas não tem um plano formal de resíduos.',
         result: {
-          title: 'PGRS + Gestão de Condicionantes',
+          title: 'PGRS / PGRSS + Gestão de Condicionantes',
           desc: 'Mapeamos a geração, armazenamento e destinação correta dos resíduos, e assumimos a gestão contínua das exigências vinculadas à sua licença.',
-          items: ['PGRS — Plano de Gerenciamento de Resíduos Sólidos', 'Gestão de Condicionantes de Licença']
+          items: ['PGRS / PGRSS — Plano de Gerenciamento de Resíduos', 'Gestão de Condicionantes de Licença']
         }
       },
       {
@@ -67,9 +67,9 @@ const SIM_DATA = {
         title: 'Vou suprimir vegetação para a obra',
         desc: 'O terreno tem vegetação nativa que precisa ser avaliada antes do corte.',
         result: {
-          title: 'Inventário Florístico + Licenciamento',
+          title: 'Inventário Florístico (ASV) + Licenciamento',
           desc: 'Fazemos o levantamento arbóreo para autorização de supressão e conduzimos o processo de licenciamento da obra em paralelo.',
-          items: ['Inventário / Censo Florístico', 'Licenciamento Ambiental (LP, LI, LO)']
+          items: ['Inventário / Censo Florístico (ASV — Autorização de Supressão de Vegetação)', 'Licenciamento Ambiental (LP, LI, LO)']
         }
       },
       {
@@ -154,12 +154,12 @@ const SIM_DATA = {
     needs: [
       {
         id: 'pgrs-com',
-        title: 'Preciso do PGRS obrigatório',
-        desc: 'Estabelecimentos comerciais, clínicas e oficinas com obrigação de plano de resíduos.',
+        title: 'Preciso do PGRS / PGRSS',
+        desc: 'Estabelecimentos comerciais, clínicas, hospitais e oficinas com obrigação de plano de resíduos.',
         result: {
-          title: 'PGRS — Plano de Gerenciamento de Resíduos Sólidos',
-          desc: 'Elaboramos o plano adequado ao seu tipo de atividade e ao volume gerado.',
-          items: ['PGRS — Plano de Gerenciamento de Resíduos Sólidos']
+          title: 'PGRS / PGRSS — Plano de Gerenciamento de Resíduos',
+          desc: 'Elaboramos o plano adequado ao seu tipo de atividade e ao volume gerado (sólidos e saúde).',
+          items: ['PGRS / PGRSS — Plano de Gerenciamento de Resíduos']
         }
       },
       {
