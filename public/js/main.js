@@ -54,7 +54,7 @@ const SIM_DATA = {
         result: {
           title: 'Due Diligence Ambiental',
           desc: 'Auditoria documental profunda para identificar passivos ambientais e contaminações ocultas antes da transação.',
-          items: ['Due Diligence Ambiental', 'Investigação de Passivos e Áreas Contaminadas']
+          items: ['Due Diligence Ambiental']
         }
       }
     ]
